@@ -1,0 +1,11 @@
+/*GENERAL*/
+@import 'general/font-face.css';
+@import 'general/general.css';
+
+/*COMPONENTS*/
+@import 'components/content';
+@import 'components/header';
+@import 'components/expediente';
+@import 'components/episodios';
+@import 'components/galeria';
+@import 'components/simple-lightbox';

@@ -1,0 +1,221 @@
+#general-special {
+    .episodios {
+        .episodio {
+            width: 100%;
+            padding: 180px 20px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            @media screen and (max-width: 767px) {
+                padding: 50px 20px;
+            }
+
+            &.episodio-1 {
+                background-image: url('../images/components/episodios/desktop-ep01.jpg');
+                background-position: right center;
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep01.jpg');
+                }
+            }
+
+            &.episodio-2 {
+                background-image: url('../images/components/episodios/desktop-ep02.jpg');
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep02.jpg');
+                }
+            }
+
+            &.episodio-3 {
+                background-image: url('../images/components/episodios/desktop-ep03.jpg');
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep03.jpg');
+                }
+            }
+
+            &.episodio-4 {
+                background-image: url('../images/components/episodios/desktop-ep04.jpg');
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep04.jpg');
+                }
+            }
+
+            &.episodio-5 {
+                background-image: url('../images/components/episodios/desktop-ep05.jpg');
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep05.jpg');
+                }
+            }
+
+            &.episodio-6 {
+                background-image: url('../images/components/episodios/desktop-ep06.jpg');
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep06.jpg');
+                }
+            }
+
+            &.episodio-7 {
+                background-image: url('../images/components/episodios/desktop-ep07.jpg');
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep07.jpg');
+                }
+            }
+
+            &.episodio-8 {
+                background-image: url('../images/components/episodios/desktop-ep08.jpg');
+
+                @media screen and (max-width: 767px) {
+                    background-image: url('../images/components/episodios/mobile-ep08.jpg');
+                }
+            }
+
+            .episodio__item {
+                max-width: 750px;
+                margin: 0 auto;
+                display: flex;
+
+                @media screen and (max-width: 767px) {
+                    flex-direction: column;
+                }
+
+                .episodio__video {
+                    width: 430px;
+
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                        order: 2;
+                    }
+
+                    iframe {
+                        width: 100%;
+                        height: 280px;
+
+                        @media screen and (max-width: 767px) {
+                            height: 250px;
+                            padding: 0 20px;
+                        }
+                    }
+                }
+
+                .episodio__conteudo {
+                    width: 320px;
+                    padding-left: 30px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                        padding-left: 0;
+                    }
+
+                    h3 {
+                        font-family: 'Asap';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        margin-bottom: 10px;
+
+                        @media screen and (max-width: 767px) {
+                            font-size: 18px;
+                            line-height: 28px;
+                            text-align: center;
+                            margin-bottom: 5px;
+                        }
+                    }
+
+                    h2 {
+                        font-family: 'Asap';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 44px;
+                        line-height: 43px;
+                        color: #FFFFFF;
+                        margin-bottom: 15px;
+
+                        @media screen and (max-width: 767px) {
+                            font-size: 26px;
+                            line-height: 28px;
+                            text-align: center;
+                        }
+                    }
+
+                    p {
+                        font-family: 'Asap';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        margin-bottom: 0;
+
+                        @media screen and (max-width: 767px) {
+                            display: none;
+                        }
+                    }
+                }
+
+                .ver-mais {
+                    display: none;
+                    order: 3;
+
+                    @media screen and (max-width: 767px) {
+                        display: block;
+                    }
+
+                    button {
+                        all: unset;
+                        font-family: 'Asap';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        color: #FFFFFF;
+                        text-align: center;
+                        position: relative;
+                        display: block;
+                        margin: 30px auto;
+
+                        &::before {
+                            content: '';
+                            width: 12px;
+                            height: 8px;
+                            background-image: url('../images/components/episodios/down-arrow.png');
+                            background-size: contain;
+                            position: absolute;
+                            bottom: -15px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                    }
+
+                    p {
+                        font-family: 'Asap';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        margin-bottom: 0;
+                        text-align: center;
+                        opacity: 0;
+                        transition: opacity .5s;
+
+                        &.ativo {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

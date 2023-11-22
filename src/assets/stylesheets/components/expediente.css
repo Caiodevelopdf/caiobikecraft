@@ -1,0 +1,295 @@
+#general-special {
+  .expedient {
+    padding: 80px 20px;
+    z-index: 2;
+    text-align: center;
+    background: #ffffff;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding: 50px 20px;
+    }
+
+    .middle-special {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 10px;
+
+      .oferecimento-title {
+        h6 {
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 28px;
+          text-align: center;
+          color: #131313;
+
+          @media screen and (max-width: 768px) {
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+      }
+
+      .oferecimento {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 730px;
+        margin-bottom: 10px;
+
+        @media screen and (max-width: 768px) {
+          justify-content: center;
+          max-width: 370px;
+          flex-wrap: wrap;
+        }
+        
+        .oferecimento-img {
+          margin: 0 20px;
+          
+          @media screen and (max-width: 768px) {
+            &.uniceplac {
+              order: 0;
+            }
+            
+            &.villela {
+              order: 1;
+            }
+            
+            &.telecel {
+              order: 0;
+            }
+          }
+
+          img {
+            &.uniceplac {
+              @media screen and (max-width: 768px) {
+                width: 113px;
+              }
+            }
+
+            &.telecel {
+              @media screen and (max-width: 768px) {
+                width: 132px;
+              }
+            }
+
+            &.villela {
+              max-width: 250px;
+
+              @media screen and (max-width: 768px) {
+                width: 132px;
+              }
+            }
+          }
+        }
+      }
+
+      .apoio {
+        margin-bottom: 90px;
+
+        @media screen and (max-width: 768px) {
+          margin-bottom: 40px;
+          margin-top: 20px;
+        }
+
+        h6 {
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 28px;
+          text-align: center;
+          color: #131313;
+          margin-bottom: 25px;
+
+          @media screen and (max-width: 768px) {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 10px;
+          }
+        }
+
+        img {
+          max-width: 127px;
+          
+          @media screen and (max-width: 768px) {
+            width: 125px;
+          }
+        }
+      }
+
+      .resumo {
+        p {
+          font-family: "Arial";
+          font-style: normal;
+          font-size: 24px;
+          line-height: 1.4;
+          text-align: center;
+          color: #000000;
+          max-width: 850px;
+          margin: 75px auto;
+
+          @media screen and (max-width: 768px) {
+            font-size: 10px;
+            margin: 0 0 15px 0;
+          }
+        }
+      }
+
+      .realizacao {
+        margin-bottom: 14px;
+
+        @media screen and (max-width: 768px) {
+          margin-top: 40px;
+        }
+
+        span {
+          display: block;
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 41px;
+          text-align: center;
+          color: #000000;
+        }
+
+        h3 {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 26px;
+          line-height: 46px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #000000;
+          margin: 50px 0 0;
+
+          @media screen and (max-width: 768px) {
+            font-size: 14px;
+            line-height: 25px;
+          }
+
+        }
+
+        img {
+          @media screen and (max-width: 768px) {
+            width: 203px;
+          }
+        }
+      }
+
+      .redes-sociais {
+        margin: 0 0 70px;
+        display: flex;
+        align-items: flex-start;
+
+        button {
+          width: 112px;
+          height: 24px;
+          background: #c32127;
+          border: 0;
+          border-radius: 10px;
+          margin: 0 15px;
+
+          img {
+            margin-right: 5px;
+            margin-top: 3px;
+          }
+
+          span {
+            font-family: "Arial";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 0px;
+          }
+
+          @media screen and (max-width: 768px) {
+            width: 91px;
+          }
+        }
+      }
+
+      .expedient-title {
+        h2 {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 30px;
+          line-height: 32px;
+          text-align: center;
+          letter-spacing: 0.3em;
+          text-transform: uppercase;
+          color: #000000;
+          margin-bottom: 32px;
+
+          @media screen and (max-width: 768px) {
+            font-size: 18px;
+            line-height: 32px;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      dl {
+        padding-left: 35px;
+        padding-right: 35px;
+        display: inline-block;
+        vertical-align: top;
+
+        @media screen and (max-width: 768px) {
+          padding-left: 0;
+          padding-right: 0;
+          display: block;
+        }
+
+        dt {
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 32px;
+          text-align: center;
+          color: #000000;
+          margin-top: 30px;
+
+          @media screen and (max-width: 768px) {
+            font-size: 14px;
+            line-height: 22px;
+          }
+
+          &:first-of-type {
+            margin-top: 0;
+
+            @media screen and (max-width: 768px) {
+              margin-top: 30px;
+            }
+          }
+        }
+
+        dd {
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 32px;
+          text-align: center;
+          color: #000000;
+
+          @media screen and (max-width: 768px) {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
