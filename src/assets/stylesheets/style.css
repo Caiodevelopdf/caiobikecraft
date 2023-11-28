@@ -3,6 +3,7 @@
 @import 'general/general.css';
 
 /*COMPONENTS*/
+@import 'components/header-bikcraft.css';
 @import 'components/content';
 @import 'components/header';
 @import 'components/expediente';
