@@ -1,9 +1,13 @@
 /*GENERAL*/
 @import 'general/font-face.css';
 @import 'general/general.css';
+@import 'general/tipografia.css';
+@import 'general/cores.css';
 
 /*COMPONENTS*/
 @import 'components/header-bikcraft.css';
+@import 'components/introducao.css';
+@import 'components/bicicletas.css';
 @import 'components/content';
 @import 'components/header';
 @import 'components/expediente';
