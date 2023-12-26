@@ -8,9 +8,8 @@
 @import 'components/header-bikcraft.css';
 @import 'components/introducao.css';
 @import 'components/bicicletas.css';
-@import 'components/content';
-@import 'components/header';
-@import 'components/expediente';
-@import 'components/episodios';
-@import 'components/galeria';
-@import 'components/simple-lightbox';
+@import 'components/tecnologia.css';
+@import 'components/parceiros.css';
+@import 'components/depoimento.css';
+@import 'components/seguro.css'
+
