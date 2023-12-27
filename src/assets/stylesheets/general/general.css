@@ -32,7 +32,23 @@ body {
         margin-left: auto;
         
     }
-
+    .titulo-bg {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: var(--cor-c11);
+        @media screen and (max-width: 800px){
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+    .titulo p {
+        margin: 4px;
+        @media screen and (max-width: 800px) {
+            font-size: 1rem;
+            text-transform: lowercase;
+            font-weight: 400;
+        }
+    }
     img {
         max-width: 100%;
         display: block;

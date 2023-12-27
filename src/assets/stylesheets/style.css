@@ -4,7 +4,7 @@
 @import 'general/tipografia.css';
 @import 'general/cores.css';
 
-/*COMPONENTS*/
+/*COMPONENTS index*/
 @import 'components/header-bikcraft.css';
 @import 'components/introducao.css';
 @import 'components/bicicletas.css';
@@ -12,5 +12,9 @@
 @import 'components/parceiros.css';
 @import 'components/depoimento.css';
 @import 'components/seguro.css';
-@import 'components/footer.css'
+@import 'components/footer.css';
+
+/*page termos*/
+
+@import 'termos/termos.css'
 
