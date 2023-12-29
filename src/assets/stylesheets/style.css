@@ -7,7 +7,7 @@
 /*COMPONENTS index*/
 @import 'components/header-bikcraft.css';
 @import 'components/introducao.css';
-@import 'components/bicicletas.css';
+@import 'components/bicicletas-lista.css';
 @import 'components/tecnologia.css';
 @import 'components/parceiros.css';
 @import 'components/depoimento.css';
@@ -16,5 +16,10 @@
 
 /*page termos*/
 
-@import 'termos/termos.css'
+@import 'termos/termos.css';
+
+/*Bicicletas*/
+
+@import 'bicicletas/bicicletas.css'
+
 
